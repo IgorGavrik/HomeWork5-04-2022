@@ -6,7 +6,7 @@ def post(request):
     print(request.body)
     print("Query", request.GET)
     print("Body", request.POST)
-    return  HttpResponse()
+    return HttpResponse()
 
 
 class TestView(APIView):
